@@ -74,7 +74,7 @@ When an "Attribute Error" is shown during this scenario, it definitely means tha
 I would check two specific areas in the Keycloak configuration:
 
 **1. The SAML Client Mappers (This caught me once)**
-What is possible here is that the attribute name the Service expects and the attribute name sent by Keycloak dont match. The issue I faced here was that the InstaSafe Lab app I ran expected the role list to be labeled as 'groups', but I had not changed the default value that Keycloak had already assigned ('member'). As a result, I couldnt even open the login page in the first place.
+What is possible here is that the attribute name the Service expects and the attribute name sent by Keycloak dont match. The issue I faced here was that the InstaSafe Lab app I ran expected the role list to be labeled as 'groups', but I had not changed the default value that Keycloak had already assigned ('member'). As a result, I couldnt even login in the first place before being hit with an error message.
 
 * **Menu Path:** *Keycloak Admin Console -> Select Realm (instasafe-lab) -> Clients -> Client 'https://sp.instasafe.local/saml'(InstaSafe SP Simulation) -> Client scopes tab at the top-> Click the `https://sp.instasafe.local/saml-dedicated` link -> Then individually check and verify the Mappers tabs.*
 
