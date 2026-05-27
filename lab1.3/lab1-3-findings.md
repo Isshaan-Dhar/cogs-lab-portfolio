@@ -1,7 +1,5 @@
 # Lab 1.3 Findings: WireGuard VPN & ZTNA Principles
 
-## Part 1: Evidence of Execution
-
 ### 1. Active Peer Handshake
 The two screenshots below show the outputs from the 'wg show' commands, that I ran on both the VMs. The keys are matching and that a secure connection is established properly, which is shown by the recent handshake timestamps and the activity of data transfer.
 
@@ -23,9 +21,8 @@ A tcpdump command (packet capture) on VM1 (ens3, not eth0) port 51820 shows only
 
 ![Encrypted Traffic Capture](Screenshot%202026-05-27%20075436.png)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Part 2: WireGuard to InstaSafe ZTNA Component Mapping
 
 **VM2 (VPN CLIENT) - ZTNA AGENT:** In WG, VM2 is a peer starting a tunnel. In ZTNA, the equivalent is the Agent, which is installed on the user's device. The agent established secure tunnel, but also continuously checks for device posture (OS Version, security status etc.) before actually allowing the connection.
 
