@@ -22,6 +22,9 @@ A tcpdump command (packet capture) on VM1 (ens3, not eth0) port 51820 shows only
 ![Encrypted Traffic Capture](Screenshot%202026-05-27%20075436.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **VM2 (VPN CLIENT) - ZTNA AGENT:** In WG, VM2 is a peer starting a tunnel. In ZTNA, the equivalent is the Agent, which is installed on the user's device. The agent established secure tunnel, but also continuously checks for device posture (OS Version, security status etc.) before actually allowing the connection.
