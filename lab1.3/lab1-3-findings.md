@@ -7,14 +7,23 @@ The two screenshots below show the outputs from the 'wg show' commands, that I r
 
 ![VM1 Handshake](Screenshot%202026-05-27%20075116.png)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 **VM2 (Agent/Client) Handshake:**
 
 ![VM2 Handshake](Screenshot%202026-05-27%20075130.png)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### 2. Encrypted Tunnel Connection
 From VM2, I pinged the internal WG IP of VM1 (10.0.0.1). Also, we can see that there is a 0% packet loss, which shows us that it is routing perfectly through the 10.0.0.0/24 subnet and not other public unstable pathways.
 
 ![VM2 Ping Test](Screenshot%202026-05-27%20075157.png)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### 3. E2E Encryption Verification
 A tcpdump command (packet capture) on VM1 (ens3, not eth0) port 51820 shows only UDP packets. The ping requests are totally encapsulated and encrypted, shown only as 148-byte and 32-byte UDP transfers show unreadability over public web.
