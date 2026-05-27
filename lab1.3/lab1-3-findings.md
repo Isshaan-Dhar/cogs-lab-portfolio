@@ -6,9 +6,11 @@
 The two screenshots below show the outputs from the 'wg show' commands, that I ran on both the VMs. The keys are matching and that a secure connection is established properly, which is shown by the recent handshake timestamps and the activity of data transfer.
 
 **VM1 (Gateway/Server) Handshake:**
+
 ![VM1 Handshake](Screenshot%202026-05-27%20075116.png)
 
 **VM2 (Agent/Client) Handshake:**
+
 ![VM2 Handshake](Screenshot%202026-05-27%20075130.png)
 
 ### 2. Encrypted Tunnel Connection
