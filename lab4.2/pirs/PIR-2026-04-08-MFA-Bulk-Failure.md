@@ -1,4 +1,3 @@
-cat > PIR-2026-04-08-MFA-Bulk-Failure.md <<'EOF'
 # Post-Incident Report (PIR)
 **Incident ID:** INC-2026-0408-001
 **Date:** 2026-04-08
@@ -21,7 +20,7 @@ This morning, 25 users in the finance department couldn't log into the InstaSafe
 | 11:45 | Customer confirmed OTP working |
 
 ## Root Cause
-The main Kaleyra SMS sender ID used for this customer got flagged and blocked by the telecom carrier TRAI. This happened because another company sharing the same route broke the DND (Do Not Disturb) rules. Because of this, the carrier blocked the whole sender ID. So, all 25 legitimate OTP requests were instantly rejected by the telecom provider.
+The main Kaleyra SMS sender ID used for this customer got flagged and blocked by the telecom carrier TRAI. This happened because another company sharing the same route broke the DND (Do Not Disturb) rules. Because of this, the carrier blocked the whole sender ID. So, all 25 real OTP requests were instantly rejected by the telecom provider.
 
 ## Impact Assessment
 - Users affected: 25
@@ -34,7 +33,7 @@ The main Kaleyra SMS sender ID used for this customer got flagged and blocked by
 
 ## Prevention Actions
 - [x] Action 1: Set up an automatic alert from the Kaleyra dashboard directly to L2 Team. Basically, if a sender ID gets a bunch of "REJECTED" errors (like more than 10 in 5 minutes), it will immediately notify the team so it is possible to catch it early instead of waiting for users to complain. — Owner: L2 Network Team — Due: 2026-04-15
-- [x] Action 2: Provision a dedicated sender ID that is not shared with anyone else for premium enterprise customers. Since sharing the route with another company is what caused the carrier block in the first place, giving them their own unshared ID will completely prevent this from happening again. — Owner: Account Management — Due: 2026-05-01
+- [x] Action 2: Configure a dedicated sender ID that is not shared with anyone else for premium customers. Since sharing the route with another company is what made the carrier block and flag the customer in the first place, giving them their own unshared ID will completely prevent this from happening again. — Owner: Account Management — Due: 2026-05-01
 
 ## Open Items
 - [x] Write a help guide: "How to fix Kaleyra 'REJECTED' SMS errors and switch sender IDs" — Assigned to: Ishaan Dhar — Due: 2026-04-12
