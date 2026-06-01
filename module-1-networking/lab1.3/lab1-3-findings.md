@@ -5,7 +5,7 @@ The two screenshots below show the outputs from the 'wg show' commands, that I r
 
 **VM1 (Gateway/Server) Handshake:**
 
-![VM1 Handshake](Screenshot%202026-05-27%20075116.png)
+![VM1 Handshake](cogs-lab-portfolio/screenshots/Screenshot%202026-05-27%20075116.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
