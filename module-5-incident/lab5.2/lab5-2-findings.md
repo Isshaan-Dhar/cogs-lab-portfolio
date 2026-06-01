@@ -4,7 +4,7 @@
 
 **Nginx Configuration Test (Post-Change):**
 
-![Nginx Test Success SS](../../screenshots/Screenshot 2026-05-29 172443.png)
+![Nginx Test Success SS](../../../screenshots/Screenshot 2026-05-29 172443.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
