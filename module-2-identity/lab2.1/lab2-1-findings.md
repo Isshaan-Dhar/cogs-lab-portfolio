@@ -4,29 +4,29 @@
 
 **Command 'ldapsearch' returns directory structure:**
 
-![Directory Structure SS](z_2_1_ldap_directory.png)
+![Directory Structure SS](../../screenshots/z_2_1_ldap_directory.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
 **Command 'ldapsearch' returns both users with mail attributes:**
 
-![Both users with mail attributes](z_2_1_ldap_users.png)
+![Both users with mail attributes](../../screenshots/z_2_1_ldap_users.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
 **Command 'ldapwhoami' returns user 'alice' successfully:**
 
-![Correct password whoami](z_2_1_whoami_correct.png)
+![Correct password whoami](../../screenshots/z_2_1_whoami_correct.png)
 
-![Correct password whoami with -W](z_2_1_whoami_correct_W.png)
+![Correct password whoami with -W](../../screenshots/z_2_1_whoami_correct_W.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
 **Command 'ldapwhoami' returns user 'alice' unsuccessfully:**
 
-![Incorrect password whoami](z_2_1_whoami_wrong.png)
+![Incorrect password whoami](../../screenshots/z_2_1_whoami_wrong.png)
 
-![Incorrect password whoami with -W](z_2_1_whoami_wrong_W.png)
+![Incorrect password whoami with -W](../../screenshots/z_2_1_whoami_wrong_W.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

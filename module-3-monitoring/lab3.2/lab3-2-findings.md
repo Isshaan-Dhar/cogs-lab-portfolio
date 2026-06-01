@@ -4,54 +4,54 @@
 
 **docker-compose ps Shows All 3 As UP:**
 
-![docker-compose ps SS](z_3_2_docker-compose_ps.png)
+![docker-compose ps SS](../../screenshots/z_3_2_docker-compose_ps.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **CPU Utilisation Query:**
 
-![CPU Utilisation Query SS](z_3_2_cpu_query.png)
+![CPU Utilisation Query SS](../../screenshots/z_3_2_cpu_query.png)
 
 **CPU Utilisation Graph:**
 
-![CPU Utilisation Graph SS](z_3_2_cpu_graph.png)
+![CPU Utilisation Graph SS](../../screenshots/z_3_2_cpu_graph.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Memory Utilisation Query:**
 
-![Memory Utilisation Query SS](z_3_2_memory_query.png)
+![Memory Utilisation Query SS](../../screenshots/z_3_2_memory_query.png)
 
 **Memory Utilisation Graph:**
 
-![Memory Utilisation Graph SS](z_3_2_memory_graph.png)
+![Memory Utilisation Graph SS](../../screenshots/z_3_2_memory_graph.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Disk Usage Query:**
 
-![Disk Usage Query SS](z_3_2_disk_query.png)
+![Disk Usage Query SS](../../screenshots/z_3_2_disk_query.png)
 
 **Disk Usage Graph:**
 
-![Disk Usage Graph SS](z_3_2_disk_graph.png)
+![Disk Usage Graph SS](../../screenshots/z_3_2_disk_graph.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Network Usage Query:**
 
-![Network Usage Query SS](z_3_2_network_query.png)
+![Network Usage Query SS](../../screenshots/z_3_2_network_query.png)
 
 **Network Usage Graph:**
 
-![Network Usage Graph SS](z_3_2_network_graph.png)
+![Network Usage Graph SS](../../screenshots/z_3_2_network_graph.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Grafana 3 Panel Dashboard:**
 
-![Grafana Dashboard SS](z_3_2_grafana_dashboard.png)
+![Grafana Dashboard SS](../../screenshots/z_3_2_grafana_dashboard.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
