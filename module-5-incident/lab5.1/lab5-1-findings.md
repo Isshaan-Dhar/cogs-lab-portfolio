@@ -18,7 +18,7 @@
 
 ![GitHub P1 Ticket Creation with Timestamp SS](../../screenshots/z_5_1_Github_P1_TicketCreation1.png)
 
-![GitHub P1 Ticket Creation with Timestamp SS](../../screenshots/z_5_1_Github_P1_TicketCreation2.png)
+![GitHub P1 Ticket Creation with Timestamp SS](../../screenshots/z_5_1_Github_P1_TicketCreation2.png.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-**Links:**
+## 2. **Links:**
 
 View the [P1 Ticket Thread](https://github.com/Isshaan-Dhar/cogs-support-lab-tickets/issues/5).
 
