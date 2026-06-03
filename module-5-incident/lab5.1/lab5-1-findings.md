@@ -1,6 +1,16 @@
 # Lab 5.1 Findings: Simulating and Responding a P1
 
-## 1. Screenshot Evidence
+## 1. **Links:**
+
+View the [P1 Ticket Thread](https://github.com/Isshaan-Dhar/cogs-support-lab-tickets/issues/5).
+
+View the [PIR](pirs/PIR-2026-06-01-Nginx-Crash.md)
+
+View the [PACE Handover](handovers/handover-2026-06-01.md)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+## 2. Screenshot Evidence
 
 **Uptime Kuma Red Alert with Timestamp:**
 
@@ -25,15 +35,5 @@
 **Uptime Kuma Green Recovery Alert with Timestamp:**
 
 ![Uptime Kuma Green Recovery Alert SS](../../screenshots/z_5_1_uptime_kuma_green_recovery.png)
-
-----------------------------------------------------------------------------------------------------------------------------------
-
-## 2. **Links:**
-
-View the [P1 Ticket Thread](https://github.com/Isshaan-Dhar/cogs-support-lab-tickets/issues/5).
-
-View the [PIR](pirs/PIR-2026-06-01-Nginx-Crash.md)
-
-View the [PACE Handover](handovers/handover-2026-06-01.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
