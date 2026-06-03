@@ -32,7 +32,9 @@ Third, Keycloak functions as the central Identity Provider (IdP), mirroring the 
 
 Finally, Uptime Kuma mirror Site24x7, continuously checking the infrastructure to ensure that the tunnel, proxy and IdP server are running and show status as UP.
 
+
 - *Gaps Between the Lab and a Real Production Deployment*
+
 
 In our lab, Nginx blindly forwards traffic to the backend as long as the packet originates from the WireGuard tunnel. A real ZTNA gateway focuses on continuous authorization. It checks parameters—such as device posture, geographic location, OS patch levels, and time of day—before forwarding a single byte. If an endpoint is suspicious or compromised, a real ZTNA gateway instantly cuts the connection. Our lab setup doesn’t have this real-time contextual evaluation.
 
