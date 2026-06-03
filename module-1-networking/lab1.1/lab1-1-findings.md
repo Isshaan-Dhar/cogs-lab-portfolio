@@ -1,4 +1,5 @@
 # Lab 1.1 Findings
+The screenshots related to this lab can be found [here](Lab1.1.PC_2_VM_Findings.docx)
 
 ## My VM Details
 - Provider: OCI (Oracle Cloud Infrastructure)
