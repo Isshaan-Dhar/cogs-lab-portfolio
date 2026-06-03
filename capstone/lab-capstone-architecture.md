@@ -22,7 +22,7 @@
 
 **How does this mini-ZTNA map to the real InstaSafe product? What is missing compared to a production deployment?**
 
-This lab integrates distinct network, identity, and monitoring concepts to build a functional Zero Trust Network Access (ZTNA) environment. The result is an architecture that uses WireGuard, Nginx, and Keycloak to copy the core data flow of Instasafe’s product.
+This lab uses network, identity, and monitoring concepts to build a functional Zero Trust Network Access (ZTNA) environment. The result is an architecture that uses WireGuard, Nginx, and Keycloak to copy the core data flow of Instasafe’s product.
 
 First, WireGuard acts as the direct equivalent of the InstaSafe Agent. It creates a secure, encrypted UDP tunnel from the client directly to the edge of the network, where the requests are handed to Nginx. Unlike old VPNs, WireGuard strictly acts as a cryptographic transport layer, making sure packets are encrypted during transfer without automatically granting broad internal network access, allowing lateral movement during attack situations.
 
