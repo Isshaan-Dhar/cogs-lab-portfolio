@@ -1,4 +1,5 @@
 # Lab 1.2 Findings
+The screenshots related to this lab can be found [here](Lab1.2_Screenshots.docx)
 
 ## TLS Certificate Analysis
 - **Subject:** C = IN, ST = Karnataka, L = Bangalore, O = InstaSafe Lab, CN = 92.4.73.213
