@@ -26,7 +26,7 @@ From VM2, I pinged the internal WG IP of VM1 (10.0.0.1). Also, we can see that t
 
 
 ### 3. E2E Encryption Verification
-A tcpdump command (packet capture) on VM1 (ens3, not eth0) port 51820 shows only UDP packets. The ping requests are totally encapsulated and encrypted, shown only as 148-byte and 32-byte UDP transfers show unreadability over public web.
+A tcpdump command (packet capture) on VM1 (ens3, not eth0) port 51820 shows only UDP packets. The ping requests are totally encapsulated and encrypted, shown only as 148-byte and 32-byte UDP transfers, which shows unreadability over public web.
 
 ![Encrypted Traffic Capture](../../screenshots/Screenshot%202026-05-27%20075436.png)
 
