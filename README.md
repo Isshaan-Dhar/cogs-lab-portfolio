@@ -5,7 +5,7 @@
 This repository contains the practical implementations, configurations, and documentation for the InstaSafe Technologies COGS Cloud Lab Guide. It serves as a comprehensive record of 12 hands-on infrastructure, identity, and observability experiments across 5 modules, culminating in a functional mini-Zero Trust Network Access (ZTNA) architecture.
 
 ## 🛠️ Technology Stack
-* **Cloud Infrastructure:** OCI Always Free, AWS Free Tier, DigitalOcean
+* **Cloud Infrastructure:** OCI Always Free
 * **Networking & Web:** Nginx, WireGuard, curl, OpenSSL, TCPDump
 * **Identity & Authentication:** OpenLDAP, Keycloak, Python TOTP (pyotp)
 * **Monitoring & APM:** Uptime Kuma, Prometheus, Grafana
